@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>HTML (23/11)</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            td {
+                padding: 10px 35px;
+                text-align: center;
+            }
+            form {
+                width: 32%;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- 01 -->
+        <h2>Exercise (I)</h2>
+        <ul>
+            <li><a href="https://jordan.dotrust.org" target="_blank">DOT Jordan Website (an external link)</a></li>
+            <li><a href="./about.html">Learn more about DOT Jordan (an internal link)</a></li>
+            <li><a href="mailto:jordan@dotrust.org">Email DOT Jordan</a></li>
+        </ul>
+
+        <!-- 02 -->
+        <br><hr>
+
+        <h2>Exercise (II)</h2>
+        <table border="1">
+            <tbody>
+                <tr>
+                    <td colspan="6">•</td>
+                </tr>
+                <tr>
+                    <td rowspan="4">•</td>
+                    <td>•</td>
+                    <td>•</td>
+                    <td>•</td>
+                    <td>•</td>
+                    <td>•</td>
+                </tr>
+                <tr>
+                    <td>•</td>
+                    <td colspan="3" rowspan="2">•</td>
+                    <td>•</td>
+                </tr>
+                <tr>
+                    <td>•</td>
+                    <td>•</td>
+                </tr>
+                <tr>
+                    <td>•</td>
+                    <td>•</td>
+                    <td>•</td>
+                    <td>•</td>
+                    <td>•</td>
+                </tr>
+                <tr>
+                    <td colspan="6">•</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- 03 -->
+        <br><hr>
+
+        <h2>Exercise (III)</h2>
+        <h3>Basic form design using HTML</h3>
+        <form>
+            <fieldset>
+                <legend>Personal Details</legend>
+
+                <label for="fname">First name:</label>
+                <input type="text" name="fname" id="fname">
+
+                <br>
+                <br>
+
+                <label for="lname">Last name:</label>
+                <input type="text" name="lname" id="lname">
+
+                <br>
+                <br>
+
+                Gender:
+                <!-- male -->
+                <input type="radio" name="gender" id="m_gender" value="m">
+                <label for="m_gender">Male</label>
+                <!-- female -->
+                <input type="radio" name="gender" id="f_gender" value="f">
+                <label for="f_gender">Female</label>
+
+                <br>
+                <br>
+
+                <label for="e_mail">Email:</label>
+                <input type="email" name="email" id="e_mail">
+
+                <br>
+                <br>
+
+                <label for="bdate">Date of Birth:</label>
+                <input type="date" name="birthdate" id="bdate">
+
+                <br>
+                <br>
+
+                <label for="address">Address</label><br>
+                <textarea name="address" id="address" cols="30" rows="10"></textarea>
+
+                <br>
+                <br>
+
+                <button type="submit">Submit</button>
+            </fieldset>
+        </form>
+    </body>
+</html>
