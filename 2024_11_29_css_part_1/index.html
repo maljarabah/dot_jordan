@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CSS (29/11) - Part I</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+            hr {
+                margin: 30px 0;
+            }
+            a {
+                display: block;
+                padding: 10px 20px;
+                text-decoration: none;
+                border: solid 2px green;
+                color: black;
+                max-width: fit-content;
+            }
+            a:hover {
+                background-color: green;
+                color: white;
+            }
+            ul {
+                background-color: yellow;
+                list-style: square;
+            }
+            div {
+                position: relative;
+            }
+            p, img {
+                position: absolute;
+            }
+            img {
+                display: block;
+                z-index: -1;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="#">This is a link</a>
+
+        <hr>
+
+        <ul>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Coca Cola</li>
+        </ul>
+
+        <hr>
+
+        <div>
+            <h1>This is a heading</h1>
+            <p>Because the image has a z-index of -l, it will be placed behind the text.</p>
+            <img src="./img.jpg" alt="An Image!">
+        </div>
+    </body>
+</html>
