@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+
+.card {
+    border: solid 1px black;
+    padding: 25px 15px;
+    max-width: 500px;
+}
+
+.card:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    margin-bottom: 5px;
+}
