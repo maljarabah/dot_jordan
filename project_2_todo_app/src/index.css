@@ -122,3 +122,21 @@ svg {
     cursor: pointer;
     overflow-wrap: anywhere;
 }
+
+@media (max-width: 630px) {
+    .main {
+        width: 500px;
+    }
+}
+
+@media (max-width: 530px) {
+    .main {
+        width: 400px;
+    }
+}
+
+@media (max-width: 430px) {
+    .main {
+        width: 300px;
+    }
+}
