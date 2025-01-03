@@ -1,0 +1,69 @@
+.card {
+    background: linear-gradient(360deg, #f3f3f3 60%, transparent 100%);
+    padding: 50px 20px 30px;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    position: relative;
+    overflow: hidden;
+
+    /* flex */
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+
+.card_overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.card_head {
+    /* flex */
+    display: flex;
+    column-gap: 15px;
+}
+
+.card_poster {
+    width: 100px;
+    box-shadow: 0 0 20px -10px rgba(0, 0, 0, 0.5);
+}
+
+.card_info {
+    /* flex */
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.card_title {
+    font-weight: inherit;
+}
+
+.card_date {
+    color: #555;
+}
+
+.card_avg {
+    color: #555;
+    width: fit-content;
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+}
+
+.card_desc {
+    color: #545454;
+    text-align: justify;
+    line-height: 1.6;
+}
