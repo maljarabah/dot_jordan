@@ -81,16 +81,22 @@ function Contact() {
                     <div className="flex-1 sm:max-w-lg lg:max-w-md">
                         <form ref={form} onSubmit={sendEmail} className="space-y-5">
                             <div>
-                                <label className="font-medium">Full name</label>
-                                <input type="text" name="user_name" required className="mt-2 w-full rounded-lg border bg-transparent px-3 py-2 text-gray-500 shadow-sm outline-none focus:border-indigo-600" />
+                                <label for="user_name" className="font-medium">
+                                    Full name
+                                </label>
+                                <input type="text" name="user_name" id="user_name" required className="mt-2 w-full rounded-lg border bg-transparent px-3 py-2 text-gray-500 shadow-sm outline-none focus:border-indigo-600" />
                             </div>
                             <div>
-                                <label className="font-medium">Email</label>
-                                <input type="email" name="user_email" required className="mt-2 w-full rounded-lg border bg-transparent px-3 py-2 text-gray-500 shadow-sm outline-none focus:border-indigo-600" />
+                                <label for="user_email" className="font-medium">
+                                    Email
+                                </label>
+                                <input type="email" name="user_email" id="user_email" required className="mt-2 w-full rounded-lg border bg-transparent px-3 py-2 text-gray-500 shadow-sm outline-none focus:border-indigo-600" />
                             </div>
                             <div>
-                                <label className="font-medium">Message</label>
-                                <textarea name="user_message" required className="mt-2 h-36 w-full resize-none appearance-none rounded-lg border bg-transparent px-3 py-2 shadow-sm outline-none focus:border-indigo-600"></textarea>
+                                <label for="user_message" className="font-medium">
+                                    Message
+                                </label>
+                                <textarea name="user_message" id="user_message" required className="mt-2 h-36 w-full resize-none appearance-none rounded-lg border bg-transparent px-3 py-2 shadow-sm outline-none focus:border-indigo-600"></textarea>
                             </div>
                             <button className="flex w-full items-center justify-center rounded-lg bg-indigo-600 px-4 py-2 font-medium text-white duration-150 hover:bg-indigo-500 active:bg-indigo-600">
                                 {isLoading ? (

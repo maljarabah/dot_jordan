@@ -7,7 +7,7 @@ function Experience({ data }) {
                         <div className="flex-1">
                             <div className="flex items-center gap-x-3">
                                 <div className="flex h-14 w-14 items-center justify-center overflow-hidden rounded-full border bg-white">
-                                    <img className="h-full w-full" src={item.company_logo} />
+                                    <img className="h-full w-full" src={item.company_logo} alt={`${item.company}'s Logo`} />
                                 </div>
                                 <div>
                                     <span className="block text-sm font-medium text-indigo-500">{item.company}</span>
