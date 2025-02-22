@@ -1,31 +1,4 @@
-function Experience() {
-    const data = [
-        {
-            role: "Software Engineer",
-            company: "ByConsult",
-            company_logo: "../assets/cbs.jpg",
-            description: "Crafts advanced ERP and CRM solutions that help businesses optimize operations, strengthen customer relationships, and grow successfully.",
-            date: "Dec 2024 - Present",
-            location: "Remote",
-        },
-        {
-            role: "Computer Science Teacher",
-            company: "Ministry of Education",
-            company_logo: "../assets/moe.jpg",
-            description: "Educated computer science and digital skills to 10th and 11th-grade students enrolled BTEC in Engineering program.",
-            date: "Aug 2024 - Dec 2024",
-            location: "Tafilah, Jordan",
-        },
-        {
-            role: "Summer Intern",
-            company: "Tafila Technical University",
-            company_logo: "../assets/ttu.jpg",
-            description: "Troubleshooted and resolved critical issues in a university clinic's biometric attendance system.",
-            date: "Jul 2023 - Aug 2023",
-            location: "Tafilah, Jordan",
-        },
-    ]
-
+function Experience({ data }) {
     return (
         <ul className="mt-12 space-y-6">
             {data.map((item, idx) => (

@@ -16,19 +16,19 @@ function Home({ data }) {
             <Hero />
 
             <Section sectionId="about" sectionName="About">
-                <About />
+                <About data={data.about} />
             </Section>
 
             <Section sectionId="experience" sectionName="Experience">
-                <Experience />
+                <Experience data={data.experience} />
             </Section>
 
             <Section sectionId="projects" sectionName="Projects">
-                <Projects />
+                <Projects data={data.projects} />
             </Section>
 
             <Section sectionId="testimonials" sectionName="Testimonials">
-                <Testimonials />
+                <Testimonials data={data.testimonials} />
             </Section>
 
             <Section sectionId="contact" sectionName="Contact">
