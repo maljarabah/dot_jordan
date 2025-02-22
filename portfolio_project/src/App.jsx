@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router"
 import Home from "./pages/Home"
 import NotFound from "./pages/NotFound"
-import data from "./data.json"
+import data from "./data.dist.json"
 
 function App() {
     return (
