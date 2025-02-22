@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+
+.markdown a {
+    color: #5b5df4;
+    font-weight: 500;
+}
+
+.markdown a:hover {
+    text-decoration: underline;
+}
+
+.hero_container {
+    height: calc(100vh - 5rem);
+}
