@@ -4,6 +4,8 @@ import NotFound from "./pages/NotFound"
 import data from "./data.dist.json"
 
 function App() {
+    const images = import.meta.glob("/src/assets/*", { eager: true })
+
     return (
         <BrowserRouter>
             <Routes>
