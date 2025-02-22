@@ -23,7 +23,78 @@ function Card({ project }) {
     )
 }
 
-function Projects({ data }) {
+function Projects() {
+    const data = [
+        {
+            color: "#38bdf8",
+            link: "",
+            name: "ReactJS-based Personal Portfolio Website",
+            description: "A ReactJS-based portfolio website was built with ReactJS, Tailwind CSS, and Float UI for a modern, responsive, and visually appealing design. It integrates EmailJS for a seamless contact form and was deployed on Vercel for fast performance, scalability, security, and continuous deployment.",
+            tools: [
+                {
+                    name: "ReactJS",
+                    icon: "../assets/reactjs.svg",
+                },
+                {
+                    name: "Tailwind CSS",
+                    icon: "../assets/tailwindcss.svg",
+                },
+                {
+                    name: "Float UI",
+                    icon: "../assets/floatui.svg",
+                },
+                {
+                    name: "EmailJS",
+                    icon: "../assets/emailjs.svg",
+                },
+                {
+                    name: "Vercel",
+                    icon: "../assets/vercel.svg",
+                },
+            ],
+        },
+        {
+            color: "#6706ce",
+            link: "",
+            name: "Advanced Deep Learning Techniques for US Road Sign Detection and Segmentation",
+            description: "A collection of deep learning models and experiments for the US road signs detection and segmentation problems. It was submitted as a graduation project under the supervision of Prof. Jafar Abukhait, in partial fulfillment of the requirements for a bachelor's degree.",
+            tools: [
+                {
+                    name: "Python",
+                    icon: "../assets/python.svg",
+                },
+                {
+                    name: "TensorFlow",
+                    icon: "../assets/tensorflow.svg",
+                },
+                {
+                    name: "Roboflow",
+                    icon: "../assets/roboflow.svg",
+                },
+            ],
+        },
+        {
+            color: "#000000",
+            link: "",
+            name: "Aqsa Bot: AI-powered Image Generation and Enhancement Telegram Chatbot",
+            description: "An AI-powered image generation and enhancement Arabic Telegram chatbot developed using Python, Telegram Bot API, and generative AI models. It allowed users to generate images from text prompts, and produce clearer photos from image prompts.",
+            tools: [
+                {
+                    name: "Python",
+                    icon: "../assets/python.svg",
+                },
+                {
+                    name: "Python Telegram Bot",
+                    icon: "../assets/pythontelegrambot.png",
+                },
+                {
+                    name: "Replicate",
+                    icon: "../assets/replicate.svg",
+                },
+            ],
+        },
+    ]
+
     return (
         <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 md:grid-cols-3">
             {data.map((item, idx) => (

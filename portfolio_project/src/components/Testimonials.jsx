@@ -1,7 +1,22 @@
 import { useState } from "react"
 
-function Testimonials({ data }) {
+function Testimonials() {
     const [currentTestimonial, setCurrentTestimonial] = useState(0)
+
+    const data = [
+        {
+            avatar: "../assets/drzeyad.jpg",
+            name: "Dr. Zeyad Alodat",
+            title: "Assistant Professor at Tafila Technical University",
+            quote: "Mohammad is an exceptional student who consistently demonstrates a strong work ethic, intellectual curiosity, and a deep understanding of complex concepts. He consistently ranks among the top students in his class, and his contributions to class discussions are insightful and thought-provoking. His ability to grasp new concepts quickly and apply them creatively sets him apart from his peers.",
+        },
+        {
+            avatar: "../assets/drnaeem.jpg",
+            name: "Dr. Naeem Alodat",
+            title: "Associate Professor at Tafila Technical University",
+            quote: "Aljarab'ah exhibited excellent teamwork and communication skills. He was always willing to help his peers with their coursework and projects, and he collaborated effectively with his classmates on group assignments. His positive attitude and adaptability to new challenges make him an excellent candidate for any environment.",
+        },
+    ]
 
     return (
         <section className="py-14">
