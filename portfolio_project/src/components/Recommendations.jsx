@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-function Testimonials({ data }) {
+function Recommendations({ data }) {
     const [currentTestimonial, setCurrentTestimonial] = useState(0)
 
     return (
@@ -16,7 +16,7 @@ function Testimonials({ data }) {
                                             <p className="text-xl font-light text-gray-800 sm:text-2xl">“{item.quote}“</p>
                                         </blockquote>
                                         <div className="mt-16">
-                                            <img src={item.avatar} alt={`${item.name} 's Picture`} className="mx-auto h-16 w-16 rounded-full" />
+                                            <img src={item.avatar} alt={`${item.name}'s Picture`} className="mx-auto h-16 w-16 rounded-full" />
                                             <div className="mt-3">
                                                 <span className="block font-semibold text-gray-800">{item.name}</span>
                                                 <span className="mt-0.5 block text-sm text-gray-600">{item.title}</span>
@@ -44,4 +44,4 @@ function Testimonials({ data }) {
     )
 }
 
-export default Testimonials
+export default Recommendations

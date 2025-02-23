@@ -1,13 +1,13 @@
 {
     "about": {
-        "img": "./assets/avatar.jpg",
+        "img": "/assets/avatar.jpg",
         "content": "Mohammad Aljarab'ah is a Jordanian [Software Engineer](https://www.linkedin.com/in/mohjarabahh) at [ByConsult](https://www.cbs.jo), hails from [Tafilah](https://en.wikipedia.org/wiki/Tafilah) town in southwestern Jordan. He obtained a BSc in Intelligent Systems Engineering from [Tafila Technical University](https://www.ttu.edu.jo/en). He is passionate about innovative projects, delivering quality work, and refining his skills to achieve impactful results. Mohammad thrives in collaborative environments and seeks to learn from experienced professionals while contributing to advanced initiatives."
     },
     "experience": [
         {
             "role": "Software Engineer",
             "company": "ByConsult",
-            "company_logo": "./assets/cbs.jpg",
+            "company_logo": "/assets/cbs.jpg",
             "description": "Crafts advanced ERP and CRM solutions that help businesses optimize operations, strengthen customer relationships, and grow successfully.",
             "date": "Dec 2024 - Present",
             "location": "Remote"
@@ -15,7 +15,7 @@
         {
             "role": "Computer Science Teacher",
             "company": "Ministry of Education",
-            "company_logo": "./assets/moe.jpg",
+            "company_logo": "/assets/moe.jpg",
             "description": "Educated computer science and digital skills to 10th and 11th-grade students enrolled BTEC in Engineering program.",
             "date": "Aug 2024 - Dec 2024",
             "location": "Tafilah, Jordan"
@@ -23,7 +23,7 @@
         {
             "role": "Summer Intern",
             "company": "Tafila Technical University",
-            "company_logo": "./assets/ttu.jpg",
+            "company_logo": "/assets/ttu.jpg",
             "description": "Troubleshooted and resolved critical issues in a university clinic's biometric attendance system.",
             "date": "Jul 2023 - Aug 2023",
             "location": "Tafilah, Jordan"
@@ -37,23 +37,23 @@
             "tools": [
                 {
                     "name": "ReactJS",
-                    "icon": "./assets/reactjs.svg"
+                    "icon": "/assets/reactjs.svg"
                 },
                 {
                     "name": "Tailwind CSS",
-                    "icon": "./assets/tailwindcss.svg"
+                    "icon": "/assets/tailwindcss.svg"
                 },
                 {
                     "name": "Float UI",
-                    "icon": "./assets/floatui.svg"
+                    "icon": "/assets/floatui.svg"
                 },
                 {
                     "name": "EmailJS",
-                    "icon": "./assets/emailjs.svg"
+                    "icon": "/assets/emailjs.svg"
                 },
                 {
                     "name": "Vercel",
-                    "icon": "./assets/vercel.svg"
+                    "icon": "/assets/vercel.svg"
                 }
             ]
         },
@@ -64,15 +64,15 @@
             "tools": [
                 {
                     "name": "Python",
-                    "icon": "./assets/python.svg"
+                    "icon": "/assets/python.svg"
                 },
                 {
                     "name": "TensorFlow",
-                    "icon": "./assets/tensorflow.svg"
+                    "icon": "/assets/tensorflow.svg"
                 },
                 {
                     "name": "Roboflow",
-                    "icon": "./assets/roboflow.svg"
+                    "icon": "/assets/roboflow.svg"
                 }
             ]
         },
@@ -83,28 +83,28 @@
             "tools": [
                 {
                     "name": "Python",
-                    "icon": "./assets/python.svg"
+                    "icon": "/assets/python.svg"
                 },
                 {
                     "name": "Python Telegram Bot",
-                    "icon": "./assets/pythontelegrambot.png"
+                    "icon": "/assets/pythontelegrambot.png"
                 },
                 {
                     "name": "Replicate",
-                    "icon": "./assets/replicate.svg"
+                    "icon": "/assets/replicate.svg"
                 }
             ]
         }
     ],
-    "testimonials": [
+    "recommendations": [
         {
-            "avatar": "./assets/drzeyad.jpg",
+            "avatar": "/assets/drzeyad.jpg",
             "name": "Dr. Zeyad Alodat",
             "title": "Assistant Professor at Tafila Technical University",
             "quote": "Mohammad is an exceptional student who consistently demonstrates a strong work ethic, intellectual curiosity, and a deep understanding of complex concepts. He consistently ranks among the top students in his class, and his contributions to class discussions are insightful and thought-provoking. His ability to grasp new concepts quickly and apply them creatively sets him apart from his peers."
         },
         {
-            "avatar": "./assets/drnaeem.jpg",
+            "avatar": "/assets/drnaeem.jpg",
             "name": "Dr. Naeem Alodat",
             "title": "Associate Professor at Tafila Technical University",
             "quote": "Aljarab'ah exhibited excellent teamwork and communication skills. He was always willing to help his peers with their coursework and projects, and he collaborated effectively with his classmates on group assignments. His positive attitude and adaptability to new challenges make him an excellent candidate for any environment."

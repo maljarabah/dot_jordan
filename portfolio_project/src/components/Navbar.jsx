@@ -7,7 +7,7 @@ function Navbar() {
         { title: "About", path: "#about" },
         { title: "Experience", path: "#experience" },
         { title: "Projects", path: "#projects" },
-        { title: "Testimonials", path: "#testimonials" },
+        { title: "Recommends", path: "#recommendations" },
         { title: "Contact ", path: "#contact" },
     ]
 
@@ -16,7 +16,7 @@ function Navbar() {
             <div className="mx-auto max-w-screen-xl items-center px-4 md:flex md:px-8">
                 <div className="flex items-center justify-between py-3 md:block md:py-5">
                     <a className="text-lg" href="#">
-                        <strong className="text-indigo-500">Mohammad</strong> Jarab'ah
+                        <strong className="text-indigo-600">Mohammad</strong> Jarab'ah
                     </a>
                     <div className="md:hidden">
                         <button className="rounded-md p-2 text-gray-700 outline-none focus:border focus:border-gray-400" onClick={() => setState(!state)}>

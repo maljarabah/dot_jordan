@@ -10,7 +10,7 @@ function Experience({ data }) {
                                     <img className="h-full w-full" src={item.company_logo} alt={`${item.company}'s Logo`} />
                                 </div>
                                 <div>
-                                    <span className="block text-sm font-medium text-indigo-500">{item.company}</span>
+                                    <span className="block text-sm font-medium text-indigo-600">{item.company}</span>
                                     <h3 className="text-xl font-medium text-gray-800">{item.role}</h3>
                                 </div>
                             </div>

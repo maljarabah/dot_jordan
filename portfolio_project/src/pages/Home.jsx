@@ -4,7 +4,7 @@ import Hero from "../components/Hero"
 import About from "../components/About"
 import Experience from "../components/Experience"
 import Projects from "../components/Projects.jsx"
-import Testimonials from "../components/Testimonials.jsx"
+import Recommendations from "../components/Recommendations.jsx"
 import Contact from "../components/Contact"
 import Footer from "../components/Footer"
 
@@ -27,8 +27,8 @@ function Home({ data }) {
                 <Projects data={data.projects} />
             </Section>
 
-            <Section sectionId="testimonials" sectionName="Testimonials">
-                <Testimonials data={data.testimonials} />
+            <Section sectionId="recommendations" sectionName="Recommendations">
+                <Recommendations data={data.recommendations} />
             </Section>
 
             <Section sectionId="contact" sectionName="Contact">
