@@ -5,12 +5,12 @@ function Footer() {
     const socials = [
         {
             name: "GitHub",
-            link: "https://github.com/mohjarabahh",
+            link: "https://github.com/maljarabah",
             icon: <FaGithub className="h-6 w-6 duration-150 hover:text-gray-500" />,
         },
         {
             name: "LinkedIn",
-            link: "https://linkedin.com/in/mohjarabahh",
+            link: "https://linkedin.com/in/maljarabah",
             icon: <FaLinkedin className="h-6 w-6 duration-150 hover:text-gray-500" />,
         },
     ]
