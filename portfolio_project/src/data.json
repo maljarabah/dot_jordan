@@ -33,6 +33,7 @@
         {
             "color": "#38bdf8",
             "name": "ReactJS-based Personal Portfolio Website",
+            "link": "https://dotjordanmohammadjarabah.vercel.app/",
             "description": "A ReactJS-based portfolio website was built with ReactJS, Tailwind CSS, and Float UI for a modern, responsive, and visually appealing design. It integrates EmailJS for a seamless contact form and was deployed on Vercel for fast performance, scalability, security, and continuous deployment.",
             "tools": [
                 {
@@ -60,6 +61,7 @@
         {
             "color": "#6706ce",
             "name": "Advanced Deep Learning Techniques for US Road Sign Detection and Segmentation",
+            "link": "",
             "description": "A collection of deep learning models and experiments for the US road signs detection and segmentation problems. It was submitted as a graduation project under the supervision of Prof. Jafar Abukhait, in partial fulfillment of the requirements for a bachelor's degree.",
             "tools": [
                 {
@@ -79,6 +81,7 @@
         {
             "color": "#000000",
             "name": "Aqsa Bot: AI-powered Image Generation and Enhancement Telegram Chatbot",
+            "link": "",
             "description": "An AI-powered image generation and enhancement Arabic Telegram chatbot developed using Python, Telegram Bot API, and generative AI models. It allowed users to generate images from text prompts, and produce clearer photos from image prompts.",
             "tools": [
                 {
@@ -92,6 +95,46 @@
                 {
                     "name": "Replicate",
                     "icon": "/assets/replicate.svg"
+                }
+            ]
+        },
+        {
+            "color": "#e73e00",
+            "name": "MovieHub: Movie Search Simple Web App",
+            "link": "https://dotjordanmoviesapp.vercel.app",
+            "description": "A simple ReactJS movie search web app that uses The Movie Database (TMDB) API to fetch and display movie details. It features a search bar for finding movies by title, Axios for API requests, and a clean, responsive UI. The app is deployed on Vercel for fast and reliable hosting.",
+            "tools": [
+                {
+                    "name": "ReactJS",
+                    "icon": "/assets/reactjs.svg"
+                },
+                {
+                    "name": "Axios",
+                    "icon": "/assets/axios.svg"
+                },
+                {
+                    "name": "Vercel",
+                    "icon": "/assets/vercel.svg"
+                }
+            ]
+        },
+        {
+            "color": "#ff9b21",
+            "name": "WeatherWise: Weather Search Simple Web App",
+            "link": "https://dotjordanweatherapp.vercel.app",
+            "description": "A simple weather search web app built with ReactJS that fetches real-time weather data from the OpenWeatherMap API. Users can enter a city name to get current weather conditions, including temperature, humidity, and wind speed.",
+            "tools": [
+                {
+                    "name": "ReactJS",
+                    "icon": "/assets/reactjs.svg"
+                },
+                {
+                    "name": "Axios",
+                    "icon": "/assets/axios.svg"
+                },
+                {
+                    "name": "Vercel",
+                    "icon": "/assets/vercel.svg"
                 }
             ]
         }

@@ -10,7 +10,7 @@ function Footer() {
         },
         {
             name: "LinkedIn",
-            link: "https://www.linkedin.com/in/mohjarabahh/",
+            link: "https://linkedin.com/in/mohjarabahh",
             icon: <FaLinkedin className="h-6 w-6 duration-150 hover:text-gray-500" />,
         },
     ]
