@@ -40,8 +40,8 @@ function Contact() {
         setIsLoading(true)
 
         emailjs
-            .sendForm("service_yparckw", "template_3bap7zm", form.current, {
-                publicKey: "y_Pt1zAd7ieqq8sNI",
+            .sendForm(import.meta.env.VITE_SERVICE_ID, import.meta.env.VITE_TEMPLATE_ID, form.current, {
+                publicKey: import.meta.env.VITE_PUBLIC_KEY,
             })
             .then(
                 () => {
