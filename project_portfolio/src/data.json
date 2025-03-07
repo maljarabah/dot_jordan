@@ -1,0 +1,156 @@
+{
+    "about": {
+        "img": "/assets/avatar.jpg",
+        "content": "Mohammad Aljarab'ah is a Jordanian [Software Engineer](https://www.linkedin.com/in/maljarabah) at [ByConsult](https://www.cbs.jo), hails from [Tafilah](https://en.wikipedia.org/wiki/Tafilah) town in southwestern Jordan. He obtained a BSc in Intelligent Systems Engineering from [Tafila Technical University](https://www.ttu.edu.jo/en). He is passionate about innovative projects, delivering quality work, and refining his skills to achieve impactful results. Mohammad thrives in collaborative environments and seeks to learn from experienced professionals while contributing to advanced initiatives."
+    },
+    "experience": [
+        {
+            "role": "Software Engineer",
+            "company": "ByConsult",
+            "company_logo": "/assets/cbs.jpg",
+            "description": "Crafts advanced ERP and CRM solutions that help businesses optimize operations, strengthen customer relationships, and grow successfully.",
+            "date": "Dec 2024 - Present",
+            "location": "Remote"
+        },
+        {
+            "role": "Computer Science Teacher",
+            "company": "Ministry of Education",
+            "company_logo": "/assets/moe.jpg",
+            "description": "Educated computer science and digital skills to 10th and 11th-grade students enrolled BTEC in Engineering program.",
+            "date": "Aug 2024 - Dec 2024",
+            "location": "Tafilah, Jordan"
+        },
+        {
+            "role": "Summer Intern",
+            "company": "Tafila Technical University",
+            "company_logo": "/assets/ttu.jpg",
+            "description": "Troubleshooted and resolved critical issues in a university clinic's biometric attendance system.",
+            "date": "Jul 2023 - Aug 2023",
+            "location": "Tafilah, Jordan"
+        }
+    ],
+    "projects": [
+        {
+            "color": "#38bdf8",
+            "name": "ReactJS-based Personal Portfolio Website",
+            "link": "https://dotjordanmohammadjarabah.vercel.app/",
+            "description": "A ReactJS-based portfolio website was built with ReactJS, Tailwind CSS, and Float UI for a modern, responsive, and visually appealing design. It integrates EmailJS for a seamless contact form and was deployed on Vercel for fast performance, scalability, security, and continuous deployment.",
+            "tools": [
+                {
+                    "name": "ReactJS",
+                    "icon": "/assets/reactjs.svg"
+                },
+                {
+                    "name": "Tailwind CSS",
+                    "icon": "/assets/tailwindcss.svg"
+                },
+                {
+                    "name": "Float UI",
+                    "icon": "/assets/floatui.svg"
+                },
+                {
+                    "name": "EmailJS",
+                    "icon": "/assets/emailjs.svg"
+                },
+                {
+                    "name": "Vercel",
+                    "icon": "/assets/vercel.svg"
+                }
+            ]
+        },
+        {
+            "color": "#6706ce",
+            "name": "Advanced Deep Learning Techniques for US Road Sign Detection and Segmentation",
+            "link": "",
+            "description": "A collection of deep learning models and experiments for the US road signs detection and segmentation problems. It was submitted as a graduation project under the supervision of Prof. Jafar Abukhait, in partial fulfillment of the requirements for a bachelor's degree.",
+            "tools": [
+                {
+                    "name": "Python",
+                    "icon": "/assets/python.svg"
+                },
+                {
+                    "name": "TensorFlow",
+                    "icon": "/assets/tensorflow.svg"
+                },
+                {
+                    "name": "Roboflow",
+                    "icon": "/assets/roboflow.svg"
+                }
+            ]
+        },
+        {
+            "color": "#000000",
+            "name": "Aqsa Bot: AI-powered Image Generation and Enhancement Telegram Chatbot",
+            "link": "",
+            "description": "An AI-powered image generation and enhancement Arabic Telegram chatbot developed using Python, Telegram Bot API, and generative AI models. It allowed users to generate images from text prompts, and produce clearer photos from image prompts.",
+            "tools": [
+                {
+                    "name": "Python",
+                    "icon": "/assets/python.svg"
+                },
+                {
+                    "name": "Python Telegram Bot",
+                    "icon": "/assets/pythontelegrambot.png"
+                },
+                {
+                    "name": "Replicate",
+                    "icon": "/assets/replicate.svg"
+                }
+            ]
+        },
+        {
+            "color": "#e73e00",
+            "name": "MovieHub: Movie Search Simple Web App",
+            "link": "https://dotjordanmoviesapp.vercel.app",
+            "description": "A simple ReactJS movie search web app that uses The Movie Database (TMDB) API to fetch and display movie details. It features a search bar for finding movies by title, Axios for API requests, and a clean, responsive UI. The app is deployed on Vercel for fast and reliable hosting.",
+            "tools": [
+                {
+                    "name": "ReactJS",
+                    "icon": "/assets/reactjs.svg"
+                },
+                {
+                    "name": "Axios",
+                    "icon": "/assets/axios.svg"
+                },
+                {
+                    "name": "Vercel",
+                    "icon": "/assets/vercel.svg"
+                }
+            ]
+        },
+        {
+            "color": "#ff9b21",
+            "name": "WeatherWise: Weather Search Simple Web App",
+            "link": "https://dotjordanweatherapp.vercel.app",
+            "description": "A simple weather search web app built with ReactJS that fetches real-time weather data from the OpenWeatherMap API. Users can enter a city name to get current weather conditions, including temperature, humidity, and wind speed.",
+            "tools": [
+                {
+                    "name": "ReactJS",
+                    "icon": "/assets/reactjs.svg"
+                },
+                {
+                    "name": "Axios",
+                    "icon": "/assets/axios.svg"
+                },
+                {
+                    "name": "Vercel",
+                    "icon": "/assets/vercel.svg"
+                }
+            ]
+        }
+    ],
+    "recommendations": [
+        {
+            "avatar": "/assets/drzeyad.jpg",
+            "name": "Dr. Zeyad Alodat",
+            "title": "Assistant Professor at Tafila Technical University",
+            "quote": "Mohammad is an exceptional student who consistently demonstrates a strong work ethic, intellectual curiosity, and a deep understanding of complex concepts. He consistently ranks among the top students in his class, and his contributions to class discussions are insightful and thought-provoking. His ability to grasp new concepts quickly and apply them creatively sets him apart from his peers."
+        },
+        {
+            "avatar": "/assets/drnaeem.jpg",
+            "name": "Dr. Naeem Alodat",
+            "title": "Associate Professor at Tafila Technical University",
+            "quote": "Aljarab'ah exhibited excellent teamwork and communication skills. He was always willing to help his peers with their coursework and projects, and he collaborated effectively with his classmates on group assignments. His positive attitude and adaptability to new challenges make him an excellent candidate for any environment."
+        }
+    ]
+}
