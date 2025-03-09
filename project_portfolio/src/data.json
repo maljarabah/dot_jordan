@@ -102,7 +102,7 @@
             "color": "#e73e00",
             "name": "MovieHub: Movie Search Simple Web App",
             "link": "https://dotjordanmoviesapp.vercel.app",
-            "description": "A simple ReactJS movie search web app that uses The Movie Database (TMDB) API to fetch and display movie details. It features a search bar for finding movies by title, Axios for API requests, and a clean, responsive UI. The app is deployed on Vercel for fast and reliable hosting.",
+            "description": "A simple ReactJS movie search web application that uses The Movie Database (TMDB) API to fetch and display movie details. It features a search bar for finding movies by title, Axios for API requests, and a clean, responsive UI. The application is deployed on Vercel for fast and reliable hosting.",
             "tools": [
                 {
                     "name": "ReactJS",
@@ -122,7 +122,7 @@
             "color": "#ff9b21",
             "name": "WeatherWise: Weather Search Simple Web App",
             "link": "https://dotjordanweatherapp.vercel.app",
-            "description": "A simple weather search web app built with ReactJS that fetches real-time weather data from the OpenWeatherMap API. Users can enter a city name to get current weather conditions, including temperature, humidity, and wind speed.",
+            "description": "A simple weather search web application built with ReactJS that fetches real-time weather data from the OpenWeatherMap API. Users can enter a city name to get current weather conditions, including temperature, humidity, and wind speed.",
             "tools": [
                 {
                     "name": "ReactJS",
@@ -131,6 +131,22 @@
                 {
                     "name": "Axios",
                     "icon": "/assets/axios.svg"
+                },
+                {
+                    "name": "Vercel",
+                    "icon": "/assets/vercel.svg"
+                }
+            ]
+        },
+        {
+            "color": "#6495ed",
+            "name": "TODO: Simple Task Management Web App",
+            "link": "https://dotjordantodoapp.vercel.app/",
+            "description": "A simple task management web application built with ReactJS that utilizes browser localStorage for tasks offline storage. Users can easily manage their tasks by adding new tasks, marking them as completed, and deleting them.",
+            "tools": [
+                {
+                    "name": "ReactJS",
+                    "icon": "/assets/reactjs.svg"
                 },
                 {
                     "name": "Vercel",
