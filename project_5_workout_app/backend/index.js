@@ -1,7 +1,8 @@
 const express = require("express");
-const mongoose = require("mongoose")
 const cors = require("cors")
+const mongoose = require("mongoose")
 const workoutRoutes = require("./routes/workout")
+const userRoutes = require("./routes/user")
 
 // dotenv
 require("dotenv").config()
@@ -17,6 +18,7 @@ app.use(express.json());
 
 // routes
 app.use("/api/workouts", workoutRoutes)
+app.use("/api/user", userRoutes)
 
 // database
 async function connectDB() {
@@ -26,10 +28,10 @@ async function connectDB() {
 
         // listen to port
         app.listen(process.env.PORT, () => {
-            console.log('connected to DB and listening for requests on port', process.env.PORT)
+            console.log("Connected to DB and listening for requests on port.", process.env.PORT)
         })
-    } catch (error) {
-        console.log(error)
+    } catch (err) {
+        console.log(err)
     }
 }
 connectDB()

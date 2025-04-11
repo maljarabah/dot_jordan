@@ -10,15 +10,19 @@ function WorkoutForm ({ show, setShow }) {
     const handleSubmit = async (e) => {
         e.preventDefault()
 
+        const user = JSON.parse(localStorage.getItem("user"))
+
         try {
-            await axios.post(import.meta.env.VITE_SERVER_URI + "/api/workouts", { title, load, reps });
+            await axios.post(import.meta.env.VITE_SERVER_URI + "/api/workouts", { title, load, reps }, {
+                headers: { "Authorization": `Bearer ${user.token}` },
+            });
             setShow(!show); setError(null); setTitle(""); setLoad(""); setReps("")
             console.log("new workout added:")
         } catch (error) {
             setError("please make sure you add all fields")
         }
-
     }
+
     return (
         <form className="create" onSubmit={handleSubmit}>
             <h3>Add a New Workout</h3>
@@ -45,4 +49,5 @@ function WorkoutForm ({ show, setShow }) {
         </form>
     )
 }
+
 export default WorkoutForm

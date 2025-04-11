@@ -9,17 +9,23 @@ function Home() {
     const [workouts, setWorkouts] = useState([])
     const [show, setShow] = useState(false)
 
-    const fetchWorkouts = async () => {
+    const user = JSON.parse(localStorage.getItem("user"))
+
+    const fetchAllWorkouts = async () => {
         try {
-            let res = await axios.get(import.meta.env.VITE_SERVER_URI + "/api/workouts/");
-            setWorkouts(res.data)
+            let response = await axios.get(import.meta.env.VITE_SERVER_URI + "/api/workouts/",{
+                headers: { "Authorization": `Bearer ${user.token}` },
+            });
+            setWorkouts(response.data)
         } catch (err) {
             console.log(`ERROR! ${err}`);
         }
     }
 
     useEffect(() => {
-        fetchWorkouts()
+        if(user) {
+            fetchAllWorkouts()
+        }
     }, [show])
 
     return (
