@@ -37,6 +37,10 @@
             "description": "A fullstack workout tracking application built with ReactJS, ExpressJS, MongoDB, and JSON Web Tokens (JWT) for secure authentication. The app enables users to log, view, and manage workouts with a responsive ReactJS frontend. Deployed on Vercel for fast performance, scalability, and seamless CI/CD.",
             "tools": [
                 {
+                    "name": "NodeJS",
+                    "icon": "/assets/nodejs.svg"
+                },
+                {
                     "name": "ExpressJS",
                     "icon": "/assets/expressjs.svg"
                 },
