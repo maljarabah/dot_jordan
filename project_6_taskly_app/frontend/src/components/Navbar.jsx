@@ -2,10 +2,11 @@ import { useState } from "react"
 import { Link, useNavigate } from "react-router"
 import getLocalStorageData from "../utils/getLocalStorageData"
 
+// assets
+import logo from "../assets/logo.png"
+
 function Navbar() {
     const [state, setState] = useState(false)
-
-    const user = getLocalStorageData("user")
 
     const navigation = [
         { title: "Features", path: "/#test" },
@@ -18,7 +19,7 @@ function Navbar() {
             <div className="mx-auto max-w-screen-xl items-center px-4 md:flex md:px-8">
                 <div className="flex items-center justify-between py-3 md:block md:py-5">
                     <Link to="/">
-                        <img src="/src/assets/logo.png" width={120} height={50} alt="Taskly logo" />
+                        <img src={logo} width={120} height={50} alt="Taskly logo" />
                     </Link>
                     <div className="md:hidden">
                         <button className="text-gray-500 hover:text-gray-800" onClick={() => setState(!state)}>

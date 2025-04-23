@@ -2,6 +2,9 @@ import { Link, NavLink, useNavigate } from "react-router"
 import * as DropdownMenu from "@radix-ui/react-dropdown-menu"
 import * as Avatar from "@radix-ui/react-avatar"
 
+// assets
+import icon from "../assets/icon.png";
+
 // utils
 import getLocalStorageData from "../utils/getLocalStorageData"
 import getInitials from "../utils/getInitials"
@@ -43,7 +46,7 @@ function Sidebar() {
                 <div className="flex h-full flex-col">
                     <div className="flex h-20 items-center justify-center px-8">
                         <Link to="/" className="flex-none">
-                            <img src="/src/assets/icon.png" width={35} className="mx-auto" />
+                            <img src={icon} width={35} className="mx-auto" />
                         </Link>
                     </div>
                     <div className="flex h-full flex-1 flex-col">

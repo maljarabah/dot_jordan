@@ -35,7 +35,7 @@ async function connectDB() {
 
         // listen to port
         app.listen(process.env.PORT, () => {
-            console.log("Connected to DB and listening for requests on port.", process.env.PORT)
+            console.log(`Connected to DB and listening for requests on port ${process.env.PORT}.`)
         })
     } catch (err) {
         console.log(err)
