@@ -31,6 +31,46 @@
     ],
     "projects": [
         {
+            "color": "#2563eb",
+            "name": "Taskly: Awesome Project & Task Management App",
+            "link": "https://dotjordantasklyapp.vercel.app/",
+            "description": "A fullstack project management application built with MongoDB, ExpressJS, ReactJS, NodeJS, and JSON Web Tokens (JWT) for secure authentication. Taskly enables users to create and track projects and tasks through a modern, responsive interface. Deployed on Vercel for speed, scalability, and seamless CI/CD.",
+            "tools": [
+                {
+                    "name": "NodeJS",
+                    "icon": "/assets/nodejs.svg"
+                },
+                {
+                    "name": "ExpressJS",
+                    "icon": "/assets/expressjs.svg"
+                },
+                {
+                    "name": "MongoDB",
+                    "icon": "/assets/mongodb.svg"
+                },
+                {
+                    "name": "JSON Web Tokens (JWT)",
+                    "icon": "/assets/jsonwebtoken.webp"
+                },
+                {
+                    "name": "ReactJS",
+                    "icon": "/assets/reactjs.svg"
+                },
+                {
+                    "name": "Tailwind CSS",
+                    "icon": "/assets/tailwindcss.svg"
+                },
+                {
+                    "name": "Float UI",
+                    "icon": "/assets/floatui.svg"
+                },
+                {
+                    "name": "Vercel",
+                    "icon": "/assets/vercel.svg"
+                }
+            ]
+        },
+        {
             "color": "#1aac83",
             "name": "Workout Buddy: Fullstack Workout Tracker App",
             "link": "https://dotjordanworkoutapp.vercel.app/",
@@ -91,46 +131,6 @@
             ]
         },
         {
-            "color": "#6706ce",
-            "name": "Advanced Deep Learning Techniques for US Road Sign Detection and Segmentation",
-            "link": "",
-            "description": "A collection of deep learning models and experiments for the US road signs detection and segmentation problems. It was submitted as a graduation project under the supervision of Prof. Jafar Abukhait, in partial fulfillment of the requirements for a bachelor's degree.",
-            "tools": [
-                {
-                    "name": "Python",
-                    "icon": "/assets/python.svg"
-                },
-                {
-                    "name": "TensorFlow",
-                    "icon": "/assets/tensorflow.svg"
-                },
-                {
-                    "name": "Roboflow",
-                    "icon": "/assets/roboflow.svg"
-                }
-            ]
-        },
-        {
-            "color": "#000000",
-            "name": "Aqsa Bot: AI-powered Image Generation and Enhancement Telegram Chatbot",
-            "link": "",
-            "description": "An AI-powered image generation and enhancement Arabic Telegram chatbot developed using Python, Telegram Bot API, and generative AI models. It allowed users to generate images from text prompts, and produce clearer photos from image prompts.",
-            "tools": [
-                {
-                    "name": "Python",
-                    "icon": "/assets/python.svg"
-                },
-                {
-                    "name": "Python Telegram Bot",
-                    "icon": "/assets/pythontelegrambot.png"
-                },
-                {
-                    "name": "Replicate",
-                    "icon": "/assets/replicate.svg"
-                }
-            ]
-        },
-        {
             "color": "#e73e00",
             "name": "MovieHub: Movie Search Simple Web App",
             "link": "https://dotjordanmoviesapp.vercel.app",
@@ -183,6 +183,46 @@
                 {
                     "name": "Vercel",
                     "icon": "/assets/vercel.svg"
+                }
+            ]
+        },
+        {
+            "color": "#6706ce",
+            "name": "Advanced Deep Learning Techniques for US Road Sign Detection and Segmentation",
+            "link": "",
+            "description": "A collection of deep learning models and experiments for the US road signs detection and segmentation problems. It was submitted as a graduation project under the supervision of Prof. Jafar Abukhait, in partial fulfillment of the requirements for a bachelor's degree.",
+            "tools": [
+                {
+                    "name": "Python",
+                    "icon": "/assets/python.svg"
+                },
+                {
+                    "name": "TensorFlow",
+                    "icon": "/assets/tensorflow.svg"
+                },
+                {
+                    "name": "Roboflow",
+                    "icon": "/assets/roboflow.svg"
+                }
+            ]
+        },
+        {
+            "color": "#000000",
+            "name": "Aqsa Bot: AI-powered Image Generation and Enhancement Telegram Chatbot",
+            "link": "",
+            "description": "An AI-powered image generation and enhancement Arabic Telegram chatbot developed using Python, Telegram Bot API, and generative AI models. It allowed users to generate images from text prompts, and produce clearer photos from image prompts.",
+            "tools": [
+                {
+                    "name": "Python",
+                    "icon": "/assets/python.svg"
+                },
+                {
+                    "name": "Python Telegram Bot",
+                    "icon": "/assets/pythontelegrambot.png"
+                },
+                {
+                    "name": "Replicate",
+                    "icon": "/assets/replicate.svg"
                 }
             ]
         }
