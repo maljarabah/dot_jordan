@@ -41,45 +41,27 @@ function Contact() {
 
     return (
         <div>
-            <div className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
-                <p className="max-w-lg mx-auto space-y-3 sm:text-center">
-                    Feel free to reach out! Whether you have a question, an opportunity, or just want to say hello, I'd love to hear from you.
-                </p>
-                <div className="mt-12 max-w-lg mx-auto">
-                    <form
-                        ref={form}
-                        onSubmit={sendEmail}
-                        className="space-y-5"
-                    >
+            <div className="mx-auto max-w-screen-xl px-4 text-gray-600 md:px-8">
+                <p className="mx-auto max-w-lg space-y-3 text-center">Feel free to reach out! Whether you have a question, an opportunity, or just want to say hello, I'd love to hear from you.</p>
+                <div className="mx-auto mt-12 max-w-lg">
+                    <form ref={form} onSubmit={sendEmail} className="space-y-5">
                         <div>
                             <label htmlFor="user_name" className="font-medium">
                                 Name
                             </label>
-                            <input
-                                type="text"
-                                name="user_name"
-                                id="user_name"
-                                required
-                                className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-indigo-600 shadow-sm rounded-lg"
-                            />
+                            <input type="text" name="user_name" id="user_name" required className="mt-2 w-full rounded-lg border bg-transparent px-3 py-2 text-gray-500 shadow-sm outline-none focus:border-indigo-600" />
                         </div>
                         <div>
                             <label htmlFor="user_email" className="font-medium">
                                 Email
                             </label>
-                            <input
-                                type="email"
-                                name="user_email"
-                                id="user_email"
-                                required
-                                className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-indigo-600 shadow-sm rounded-lg"
-                            />
+                            <input type="email" name="user_email" id="user_email" required className="mt-2 w-full rounded-lg border bg-transparent px-3 py-2 text-gray-500 shadow-sm outline-none focus:border-indigo-600" />
                         </div>
                         <div>
                             <label htmlFor="user_message" className="font-medium">
                                 Message
                             </label>
-                            <textarea name="user_message" id="user_message" required className="w-full mt-2 h-36 px-3 py-2 resize-none appearance-none bg-transparent outline-none border focus:border-indigo-600 shadow-sm rounded-lg"></textarea>
+                            <textarea name="user_message" id="user_message" required className="mt-2 h-36 w-full resize-none appearance-none rounded-lg border bg-transparent px-3 py-2 shadow-sm outline-none focus:border-indigo-600"></textarea>
                         </div>
                         <button className="flex w-full items-center justify-center rounded-lg bg-indigo-600 px-4 py-2 font-medium text-white duration-150 hover:bg-indigo-500 active:bg-indigo-600">
                             {isLoading ? (
