@@ -20,7 +20,7 @@ function Footer() {
             <div className="mx-auto max-w-screen-xl px-4 md:px-8">
                 <div className="mt-10 flex flex-col items-center justify-between gap-6 border-t py-10 sm:flex-row">
                     <p className="flex items-center gap-2 text-gray-600">
-                        Made with <FaHeart className="text-indigo-600 hover:animate-ping" title="Follow me on LinkedIn and GitHub :)" /> by Mohammad Aljarab'ah.
+                        Made with <FaHeart className="text-indigo-600 hover:animate-ping" title="Follow me on LinkedIn and GitHub :)" /> by Mohammad
                     </p>
                     <div className="flex items-center gap-x-6 text-gray-400">
                         {socials.map((item, idx) => (
