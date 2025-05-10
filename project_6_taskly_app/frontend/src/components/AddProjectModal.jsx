@@ -10,7 +10,6 @@ import ErrorMessage from "../components/ErrorMessage"
 function AddProjectModal({ state, setState, isRefetch, setIsRefetch }) {
     const user = getLocalStorageData("user")
     const [error, setError] = useState(null)
-    const [isLoading, setIsLoading] = useState(null)
     const [formData, setFormData] = useState({ name: "", description: "" })
 
     const handleChange = (e) => {

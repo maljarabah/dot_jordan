@@ -3,7 +3,7 @@ import * as DropdownMenu from "@radix-ui/react-dropdown-menu"
 import * as Avatar from "@radix-ui/react-avatar"
 
 // assets
-import icon from "../assets/icon.png";
+import icon from "../assets/icon.png"
 
 // utils
 import getLocalStorageData from "../utils/getLocalStorageData"

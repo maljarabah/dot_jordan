@@ -14,7 +14,6 @@ import ManageProjectModal from "../components/ManageProjectModal"
 
 function Dashboard() {
     const user = getLocalStorageData("user")
-
     const [projects, setProjects] = useState([])
     const [isRefetch, setIsRefetch] = useState(false)
     const [isLoading, setIsLoading] = useState(false)
@@ -33,11 +32,11 @@ function Dashboard() {
         }
     }
 
-    const handleCreateClick = () => {
+    const handleCreate = () => {
         setAddModalState(true)
     }
 
-    const handleManageClick = (e) => {
+    const handleManage = (e) => {
         setProjectIdx(e.target.getAttribute("data-idx"))
         setManageModalState(true)
     }
@@ -61,7 +60,7 @@ function Dashboard() {
                             <p className="mt-2 text-gray-600">Browse and manage all your projects in one place.</p>
                         </div>
                         <div className="mt-3 md:mt-0">
-                            <button className="inline-block rounded-lg bg-blue-600 px-4 py-2 font-medium text-white duration-150 hover:bg-blue-500 active:bg-blue-700 md:text-sm" onClick={handleCreateClick}>
+                            <button className="inline-block rounded-lg bg-blue-600 px-4 py-2 font-medium text-white duration-150 hover:bg-blue-500 active:bg-blue-700 md:text-sm" onClick={handleCreate}>
                                 Add Project
                             </button>
                         </div>
@@ -96,7 +95,7 @@ function Dashboard() {
                                             </Link>
                                         </td>
                                         <td className="whitespace-nowrap text-right">
-                                            <button className="rounded-lg border px-3 py-1.5 text-gray-600 duration-150 hover:bg-gray-50 hover:text-gray-500" data-idx={idx} onClick={handleManageClick}>
+                                            <button className="rounded-lg border px-3 py-1.5 text-gray-600 duration-150 hover:bg-gray-50 hover:text-gray-500" data-idx={idx} onClick={handleManage}>
                                                 Manage
                                             </button>
                                         </td>

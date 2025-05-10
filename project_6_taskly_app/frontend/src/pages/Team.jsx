@@ -1,3 +1,4 @@
+// components
 import Sidebar from "../components/Sidebar"
 
 function Team() {

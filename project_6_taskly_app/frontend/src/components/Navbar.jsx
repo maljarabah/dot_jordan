@@ -1,6 +1,5 @@
 import { useState } from "react"
-import { Link, useNavigate } from "react-router"
-import getLocalStorageData from "../utils/getLocalStorageData"
+import { Link } from "react-router"
 
 // assets
 import logo from "../assets/logo.png"

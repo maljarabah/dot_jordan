@@ -11,7 +11,6 @@ import ErrorMessage from "./ErrorMessage"
 function ManageTaskModal({ state, setState, isRefetch, setIsRefetch, taskData }) {
     const user = getLocalStorageData("user")
     const [error, setError] = useState(null)
-    const [isLoading, setIsLoading] = useState(null)
     const [formData, setFormData] = useState({
         name: "",
         description: "",

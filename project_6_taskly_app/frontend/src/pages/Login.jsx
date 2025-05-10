@@ -1,6 +1,6 @@
-import axios from "axios"
 import { useState } from "react"
 import { Link, useNavigate } from "react-router"
+import axios from "axios"
 
 // utils
 import setLocalStorageData from "../utils/setLocalStorageData"
@@ -10,13 +10,13 @@ import Navbar from "../components/Navbar"
 import ErrorMessage from "../components/ErrorMessage"
 
 function Login() {
+    const navigate = useNavigate()
     const [error, setError] = useState(null)
-    const [isLoading, setIsLoading] = useState(null)
+    const [isLoading, setIsLoading] = useState(false)
     const [formData, setFormData] = useState({
         email: "",
         password: "",
     })
-    const navigate = useNavigate()
 
     const handleChange = (e) => {
         setFormData((prev) => ({ ...prev, [e.target.name]: e.target.value }))

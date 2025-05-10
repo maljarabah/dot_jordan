@@ -10,7 +10,6 @@ import ErrorMessage from "../components/ErrorMessage"
 function AddTaskModal({ state, setState, isRefetch, setIsRefetch, projectId }) {
     const user = getLocalStorageData("user")
     const [error, setError] = useState(null)
-    const [isLoading, setIsLoading] = useState(null)
     const [formData, setFormData] = useState({
         name: "",
         description: "",
