@@ -31,6 +31,7 @@
     ],
     "projects": [
         {
+            "visible": true,
             "color": "#2563eb",
             "name": "Taskly: Awesome Project & Task Management App",
             "link": "https://dotjordantasklyapp.vercel.app/",
@@ -71,6 +72,7 @@
             ]
         },
         {
+            "visible": true,
             "color": "#1aac83",
             "name": "Workout Buddy: Fullstack Workout Tracker App",
             "link": "https://dotjordanworkoutapp.vercel.app/",
@@ -103,6 +105,7 @@
             ]
         },
         {
+            "visible": true,
             "color": "#38bdf8",
             "name": "ReactJS-based Personal Portfolio Website",
             "link": "https://dotjordanmohammadjarabah.vercel.app/",
@@ -131,6 +134,7 @@
             ]
         },
         {
+            "visible": true,
             "color": "#e73e00",
             "name": "MovieHub: Movie Search Simple Web App",
             "link": "https://dotjordanmoviesapp.vercel.app",
@@ -151,6 +155,7 @@
             ]
         },
         {
+            "visible": true,
             "color": "#ff9b21",
             "name": "WeatherWise: Weather Search Simple Web App",
             "link": "https://dotjordanweatherapp.vercel.app",
@@ -171,6 +176,7 @@
             ]
         },
         {
+            "visible": true,
             "color": "#6495ed",
             "name": "TODO: Simple Task Management Web App",
             "link": "https://dotjordantodoapp.vercel.app/",
@@ -187,6 +193,7 @@
             ]
         },
         {
+            "visible": true,
             "color": "#6706ce",
             "name": "Advanced Deep Learning Techniques for US Road Sign Detection and Segmentation",
             "link": "",
@@ -207,6 +214,7 @@
             ]
         },
         {
+            "visible": true,
             "color": "#000000",
             "name": "Aqsa Bot: AI-powered Image Generation and Enhancement Telegram Chatbot",
             "link": "",
